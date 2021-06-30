@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Fighter</key>
+	<array>
+		<string>Champion</string>
+		<string>Battle Master</string>
+		<string>Eldritch Knight</string>
+	</array>
+	<key>Wizard</key>
+	<array>
+		<string>School of Abjuration</string>
+		<string>School of Conjuration</string>
+		<string>School of Divination</string>
+		<string>School of Enchantment</string>
+		<string>School of Evocation</string>
+		<string>School of Illusion</string>
+		<string>School of Necromancy</string>
+		<string>School of Transmutation</string>
+	</array>
+	<key>Cleric</key>
+	<array>
+		<string>Knowledge Domain</string>
+		<string>Life Domain</string>
+		<string>Light Domain</string>
+		<string>Nature Domain</string>
+		<string>Tempest Domain</string>
+		<string>Trickery Domain</string>
+		<string>War Domain</string>
+	</array>
+	<key>Rogue</key>
+	<array>
+		<string>Thief</string>
+		<string>Assassin</string>
+		<string>Arcane Trickster</string>
+	</array>
+	<key>Ranger</key>
+	<array>
+		<string>Hunter</string>
+		<string>Beast Master</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20964EE1F22F28E00561C04 /* ClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20964ED1F22F28E00561C04 /* ClassTableViewController.swift */; };
+		C20964F11F22F2EE00561C04 /* SubClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20964F01F22F2EE00561C04 /* SubClassTableViewController.swift */; };
+		C20964F71F23134800561C04 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20964F61F23134800561C04 /* LoginViewController.swift */; };
+		C20D37AC1F3D976D00D808FB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C20D37AB1F3D976D00D808FB /* Settings.bundle */; };
+		C2FC63FF1F167FE600899D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC63FE1F167FE600899D5E /* AppDelegate.swift */; };
+		C2FC64041F167FE600899D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FC64021F167FE600899D5E /* Main.storyboard */; };
+		C2FC64061F167FE600899D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FC64051F167FE600899D5E /* Assets.xcassets */; };
+		C2FC64091F167FE600899D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FC64071F167FE600899D5E /* LaunchScreen.storyboard */; };
+		C2FC64151F16A01D00899D5E /* Races.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2FC64141F16A01D00899D5E /* Races.plist */; };
+		C2FC64171F16A19600899D5E /* ViewRacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC64161F16A19600899D5E /* ViewRacesTableViewController.swift */; };
+		C2FC64191F16A23900899D5E /* RaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC64181F16A23900899D5E /* RaceManager.swift */; };
+		C2FC641B1F16A9DF00899D5E /* RaceWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC641A1F16A9DF00899D5E /* RaceWebsiteViewController.swift */; };
+		C2FC641D1F17087C00899D5E /* CreateCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC641C1F17087C00899D5E /* CreateCharacterViewController.swift */; };
+		C2FC641F1F1709A900899D5E /* ClassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC641E1F1709A900899D5E /* ClassManager.swift */; };
+		C2FC64211F1709D200899D5E /* LevelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC64201F1709D200899D5E /* LevelManager.swift */; };
+		C2FC64231F1709E700899D5E /* BackgroundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC64221F1709E700899D5E /* BackgroundManager.swift */; };
+		C2FC64251F1709F500899D5E /* AlignmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC64241F1709F500899D5E /* AlignmentManager.swift */; };
+		C2FC64271F170A1000899D5E /* Classes.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2FC64261F170A1000899D5E /* Classes.plist */; };
+		C2FC64291F170A2300899D5E /* Level.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2FC64281F170A2300899D5E /* Level.plist */; };
+		C2FC642B1F170A3B00899D5E /* Backgrounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2FC642A1F170A3B00899D5E /* Backgrounds.plist */; };
+		C2FC642D1F170A4900899D5E /* Alignments.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2FC642C1F170A4900899D5E /* Alignments.plist */; };
+		C2FC64391F172C3900899D5E /* LevelPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC64381F172C3900899D5E /* LevelPickerViewController.swift */; };
+		C2FC643B1F172E7400899D5E /* BackgroundPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC643A1F172E7400899D5E /* BackgroundPickerViewController.swift */; };
+		C2FC643D1F172E9500899D5E /* RacePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC643C1F172E9500899D5E /* RacePickerViewController.swift */; };
+		C2FC643F1F172EA500899D5E /* AlignmentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC643E1F172EA500899D5E /* AlignmentPickerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C20964ED1F22F28E00561C04 /* ClassTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTableViewController.swift; sourceTree = "<group>"; };
+		C20964F01F22F2EE00561C04 /* SubClassTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubClassTableViewController.swift; sourceTree = "<group>"; };
+		C20964F61F23134800561C04 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C20D37AB1F3D976D00D808FB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		C2FC63FB1F167FE600899D5E /* DungeonsAndDragons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonsAndDragons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FC63FE1F167FE600899D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2FC64031F167FE600899D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2FC64051F167FE600899D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2FC64081F167FE600899D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2FC640A1F167FE600899D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FC64141F16A01D00899D5E /* Races.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Races.plist; sourceTree = "<group>"; };
+		C2FC64161F16A19600899D5E /* ViewRacesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRacesTableViewController.swift; sourceTree = "<group>"; };
+		C2FC64181F16A23900899D5E /* RaceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceManager.swift; sourceTree = "<group>"; };
+		C2FC641A1F16A9DF00899D5E /* RaceWebsiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceWebsiteViewController.swift; sourceTree = "<group>"; };
+		C2FC641C1F17087C00899D5E /* CreateCharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCharacterViewController.swift; sourceTree = "<group>"; };
+		C2FC641E1F1709A900899D5E /* ClassManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassManager.swift; sourceTree = "<group>"; };
+		C2FC64201F1709D200899D5E /* LevelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelManager.swift; sourceTree = "<group>"; };
+		C2FC64221F1709E700899D5E /* BackgroundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundManager.swift; sourceTree = "<group>"; };
+		C2FC64241F1709F500899D5E /* AlignmentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentManager.swift; sourceTree = "<group>"; };
+		C2FC64261F170A1000899D5E /* Classes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Classes.plist; sourceTree = "<group>"; };
+		C2FC64281F170A2300899D5E /* Level.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level.plist; sourceTree = "<group>"; };
+		C2FC642A1F170A3B00899D5E /* Backgrounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Backgrounds.plist; sourceTree = "<group>"; };
+		C2FC642C1F170A4900899D5E /* Alignments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Alignments.plist; sourceTree = "<group>"; };
+		C2FC64381F172C3900899D5E /* LevelPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelPickerViewController.swift; sourceTree = "<group>"; };
+		C2FC643A1F172E7400899D5E /* BackgroundPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundPickerViewController.swift; sourceTree = "<group>"; };
+		C2FC643C1F172E9500899D5E /* RacePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacePickerViewController.swift; sourceTree = "<group>"; };
+		C2FC643E1F172EA500899D5E /* AlignmentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentPickerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2FC63F81F167FE600899D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C20964EF1F22F29700561C04 /* Class_and_Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				C20964ED1F22F28E00561C04 /* ClassTableViewController.swift */,
+				C20964F01F22F2EE00561C04 /* SubClassTableViewController.swift */,
+			);
+			name = Class_and_Subclass;
+			sourceTree = "<group>";
+		};
+		C2FC63F21F167FE600899D5E = {
+			isa = PBXGroup;
+			children = (
+				C2FC63FD1F167FE600899D5E /* DungeonsAndDragons */,
+				C2FC63FC1F167FE600899D5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2FC63FC1F167FE600899D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2FC63FB1F167FE600899D5E /* DungeonsAndDragons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2FC63FD1F167FE600899D5E /* DungeonsAndDragons */ = {
+			isa = PBXGroup;
+			children = (
+				C2FC64101F1681C300899D5E /* Model */,
+				C2FC64111F1681CD00899D5E /* View */,
+				C2FC64121F1681D200899D5E /* Controller */,
+				C2FC64131F169FD400899D5E /* Supporting Files */,
+			);
+			path = DungeonsAndDragons;
+			sourceTree = "<group>";
+		};
+		C2FC64101F1681C300899D5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2FC64181F16A23900899D5E /* RaceManager.swift */,
+				C2FC641E1F1709A900899D5E /* ClassManager.swift */,
+				C2FC64201F1709D200899D5E /* LevelManager.swift */,
+				C2FC64221F1709E700899D5E /* BackgroundManager.swift */,
+				C2FC64241F1709F500899D5E /* AlignmentManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C2FC64111F1681CD00899D5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C2FC64121F1681D200899D5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C20964EF1F22F29700561C04 /* Class_and_Subclass */,
+				C2FC64161F16A19600899D5E /* ViewRacesTableViewController.swift */,
+				C2FC641A1F16A9DF00899D5E /* RaceWebsiteViewController.swift */,
+				C2FC641C1F17087C00899D5E /* CreateCharacterViewController.swift */,
+				C20964F61F23134800561C04 /* LoginViewController.swift */,
+				C2FC64331F17291000899D5E /* Pickers */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C2FC64131F169FD400899D5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2FC63FE1F167FE600899D5E /* AppDelegate.swift */,
+				C2FC64021F167FE600899D5E /* Main.storyboard */,
+				C2FC64051F167FE600899D5E /* Assets.xcassets */,
+				C2FC64071F167FE600899D5E /* LaunchScreen.storyboard */,
+				C2FC640A1F167FE600899D5E /* Info.plist */,
+				C2FC64141F16A01D00899D5E /* Races.plist */,
+				C2FC64261F170A1000899D5E /* Classes.plist */,
+				C2FC64281F170A2300899D5E /* Level.plist */,
+				C2FC642A1F170A3B00899D5E /* Backgrounds.plist */,
+				C2FC642C1F170A4900899D5E /* Alignments.plist */,
+				C20D37AB1F3D976D00D808FB /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2FC64331F17291000899D5E /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				C2FC64381F172C3900899D5E /* LevelPickerViewController.swift */,
+				C2FC643A1F172E7400899D5E /* BackgroundPickerViewController.swift */,
+				C2FC643C1F172E9500899D5E /* RacePickerViewController.swift */,
+				C2FC643E1F172EA500899D5E /* AlignmentPickerViewController.swift */,
+			);
+			name = Pickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2FC63FA1F167FE600899D5E /* DungeonsAndDragons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FC640D1F167FE600899D5E /* Build configuration list for PBXNativeTarget "DungeonsAndDragons" */;
+			buildPhases = (
+				C2FC63F71F167FE600899D5E /* Sources */,
+				C2FC63F81F167FE600899D5E /* Frameworks */,
+				C2FC63F91F167FE600899D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DungeonsAndDragons;
+			productName = DungeonsAndDragons;
+			productReference = C2FC63FB1F167FE600899D5E /* DungeonsAndDragons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2FC63F31F167FE600899D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rameses Resuena";
+				TargetAttributes = {
+					C2FC63FA1F167FE600899D5E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9B75LVD6MM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C2FC63F61F167FE600899D5E /* Build configuration list for PBXProject "DungeonsAndDragons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = C2FC63F21F167FE600899D5E;
+			productRefGroup = C2FC63FC1F167FE600899D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2FC63FA1F167FE600899D5E /* DungeonsAndDragons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2FC63F91F167FE600899D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FC64091F167FE600899D5E /* LaunchScreen.storyboard in Resources */,
+				C2FC642B1F170A3B00899D5E /* Backgrounds.plist in Resources */,
+				C20D37AC1F3D976D00D808FB /* Settings.bundle in Resources */,
+				C2FC64061F167FE600899D5E /* Assets.xcassets in Resources */,
+				C2FC64041F167FE600899D5E /* Main.storyboard in Resources */,
+				C2FC642D1F170A4900899D5E /* Alignments.plist in Resources */,
+				C2FC64291F170A2300899D5E /* Level.plist in Resources */,
+				C2FC64271F170A1000899D5E /* Classes.plist in Resources */,
+				C2FC64151F16A01D00899D5E /* Races.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2FC63F71F167FE600899D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20964EE1F22F28E00561C04 /* ClassTableViewController.swift in Sources */,
+				C2FC643D1F172E9500899D5E /* RacePickerViewController.swift in Sources */,
+				C2FC641F1F1709A900899D5E /* ClassManager.swift in Sources */,
+				C2FC63FF1F167FE600899D5E /* AppDelegate.swift in Sources */,
+				C2FC641D1F17087C00899D5E /* CreateCharacterViewController.swift in Sources */,
+				C2FC64191F16A23900899D5E /* RaceManager.swift in Sources */,
+				C2FC64211F1709D200899D5E /* LevelManager.swift in Sources */,
+				C2FC64231F1709E700899D5E /* BackgroundManager.swift in Sources */,
+				C2FC64171F16A19600899D5E /* ViewRacesTableViewController.swift in Sources */,
+				C20964F11F22F2EE00561C04 /* SubClassTableViewController.swift in Sources */,
+				C2FC643B1F172E7400899D5E /* BackgroundPickerViewController.swift in Sources */,
+				C2FC643F1F172EA500899D5E /* AlignmentPickerViewController.swift in Sources */,
+				C20964F71F23134800561C04 /* LoginViewController.swift in Sources */,
+				C2FC64391F172C3900899D5E /* LevelPickerViewController.swift in Sources */,
+				C2FC64251F1709F500899D5E /* AlignmentManager.swift in Sources */,
+				C2FC641B1F16A9DF00899D5E /* RaceWebsiteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2FC64021F167FE600899D5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FC64031F167FE600899D5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2FC64071F167FE600899D5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FC64081F167FE600899D5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2FC640B1F167FE600899D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2FC640C1F167FE600899D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2FC640E1F167FE600899D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9B75LVD6MM;
+				INFOPLIST_FILE = DungeonsAndDragons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.nait.dmit.DungeonsAndDragons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C2FC640F1F167FE600899D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9B75LVD6MM;
+				INFOPLIST_FILE = DungeonsAndDragons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.nait.dmit.DungeonsAndDragons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2FC63F61F167FE600899D5E /* Build configuration list for PBXProject "DungeonsAndDragons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FC640B1F167FE600899D5E /* Debug */,
+				C2FC640C1F167FE600899D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FC640D1F167FE600899D5E /* Build configuration list for PBXNativeTarget "DungeonsAndDragons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FC640E1F167FE600899D5E /* Debug */,
+				C2FC640F1F167FE600899D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2FC63F31F167FE600899D5E /* Project object */;
+}

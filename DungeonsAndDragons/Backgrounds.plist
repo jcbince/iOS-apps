@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Acolyte</string>
+	<string>Charlatan</string>
+	<string>Criminal</string>
+	<string>Entertainer</string>
+	<string>Folk Hero</string>
+	<string>Guard Artisan</string>
+	<string>Hermit</string>
+	<string>Noble</string>
+	<string>Outlander</string>
+	<string>Sage</string>
+	<string>Sailor</string>
+	<string>Solider</string>
+	<string>Urchin</string>
+</array>
+</plist>
